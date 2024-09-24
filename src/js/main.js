@@ -4,23 +4,23 @@
 // -----------------------
 
 // 1. Expliquez ce qu'est-ce qu'une variable.
-// REPONSE:
+// REPONSE: C'est un conteneur qui stocke les informations
 
 // -----------------------
 // 2. Déclarez une variable s'appelant "firstName" et dont la valeur est votre prénom.
-
+const firstName = document.querySelector("Justine");
 // -----------------------
 // 3. Déclarez une variable s'appelant "age" et dont la valeur est votre âge. Attention, sa valeur pourrait être modifiée par la suite.
-
+let age = document.querySelector("20");
 // -----------------------
 // 4. Dans le code HTML (lignes 17 - 23), citez les divers éléments composant l'élément HTML <input>:
-// - Balise HTML:
-// - Classe(s):
-// - Attribut(s):
+// - Balise HTML: div
+// - Classe(s): card card-2
+// - Attribut(s):type name placeholder id class
 
 // -----------------------
 // 5. Expliquez la différence entre une class et un ID.
-// REPONSE:
+// REPONSE:Un id donne un nom à l'élément et ce nom est unique, il peut y avoir qu'un seul élément avec ce nom. La classe elle peut-être utilisé plusieurs fois dans la même page.
 
 // -----------------------
 // 6. A quoi sert la méthode document.querySelector("..."); ?
